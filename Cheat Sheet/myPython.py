@@ -56,7 +56,9 @@ metadata.version("pip")
 # '21.0.1'
 pip_metadata = metadata.metadata("pip")
 list(pip_metadata)
-# ['Metadata-Version', 'Name', 'Version', 'Summary', 'Home-page', 'Author', 'Author-email', 'License', 'Project-URL', 'Project-URL', 'Project-URL', 'Keywords', 'Platform', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Requires-Python']
+# ['Metadata-Version', 'Name', 'Version', 'Summary', 'Home-page', 'Author', 'Author-email', 'License', 'Project-URL', 
+#  'Project-URL', 'Project-URL', 'Keywords', 'Platform', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 
+# 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Classifier', 'Requires-Python']
 
 pip_metadata["Home-page"]
 # 'https://pip.pypa.io/'
@@ -79,7 +81,8 @@ math.isqrt(15)
 math.sqrt(15)
 # 3.872983346207417
 
-# Наконец, теперь вы можете более легко работать с n -мерными точками и векторами в стандартной библиотеке. Вы можете найти расстояние между двумя точками с помощью math.dist(), а длину вектора с помощью math.hypot():
+# Наконец, теперь вы можете более легко работать с n -мерными точками и векторами в стандартной библиотеке. 
+# Вы можете найти расстояние между двумя точками с помощью math.dist(), а длину вектора с помощью math.hypot():
 
 point_1 = (16, 25, 20)
 point_2 = (8, 15, 14)
@@ -106,7 +109,9 @@ statistics.multimode(data)
 statistics.quantiles(data, n=4)
 # [1.25, 2.5, 8.5]
 
-# В Python 3.8 появился новый statistics.NormalDistкласс, который делает более удобной работу с нормальным распределением Гаусса . Чтобы увидеть пример использования NormalDist, вы можете попробовать сравнить скорость нового statistics.fmean()и традиционного statistics.mean():
+# В Python 3.8 появился новый statistics.NormalDistкласс, который делает более удобной работу 
+# с нормальным распределением Гаусса . Чтобы увидеть пример использования NormalDist, вы можете попробовать 
+# сравнить скорость нового statistics.fmean()и традиционного statistics.mean():
 
 import random
 import statistics
